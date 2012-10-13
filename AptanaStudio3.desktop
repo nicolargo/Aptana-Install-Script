@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Aptana Studio 3
+GenericName=Integrated Development Environment
+Comment=Aptana Strudio 3 Integrated Development Environment
+Exec=/opt/Aptana_Studio_3/AptanaStudio3 %F
+TryExec=/opt/Aptana_Studio_3/AptanaStudio3
+Icon=/opt/Aptana_Studio_3/icon.xpm
+StartupNotify=true
+StartupWMClass="Aptana Studio 3"
+Terminal=false
+Type=Application
+MimeType=text/xml;application/xhtml+xml;application/x-javascript;application/x-php;application/x-java;text/x-javascript;text/html;text/plain
+Categories=GNOME;Development;IDE;
+
