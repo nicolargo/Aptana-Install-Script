@@ -25,6 +25,6 @@ then
 	exit
 fi
 
-sudo unzip '$DOWNLOAD_FILE' -d /opt
+sudo unzip $DOWNLOAD_FILE -d /opt
 sudo cp AptanaStudio3.desktop /usr/share/applications/AptanaStudio3.desktop
 rm -f $DOWNLOAD_FILE
