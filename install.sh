@@ -12,7 +12,7 @@ if (($EUID != 0)); then
 fi
 
 sudo apt-get -y install openjdk-7-jdk libjpeg62 libwebkitgtk-1.0-0 git-core
-wget http://download.aptana.com/studio3/standalone/3.2.2/linux/Aptana_Studio_3_Setup_Linux_x86_64_3.2.2.zip
+wget -c http://download.aptana.com/studio3/standalone/3.2.2/linux/Aptana_Studio_3_Setup_Linux_x86_64_3.2.2.zip
 
 FILE='Aptana_Studio_3_Setup_Linux_x86_64_3.2.2.zip'
 
