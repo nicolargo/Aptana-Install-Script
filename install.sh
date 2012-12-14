@@ -4,7 +4,7 @@ APTANA_VERSION="3.2.2"
 
 APTANA_ARCH=`arch`
 DOWNLOAD_PATH="http://download.aptana.com/studio3/standalone/$APTANA_VERSION/linux"
-DOWNLOAD_FILE="Aptana_Studio_3_Setup_Linux_$APTANA_ARCH_$APTANA_VERSION.zip"
+DOWNLOAD_FILE="Aptana_Studio_3_Setup_Linux_$APTANA_ARCH""_$APTANA_VERSION.zip"
 
 if (($EUID != 0)); then
   if [[ -t 1 ]]; then
